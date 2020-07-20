@@ -39,9 +39,17 @@
       transform: scaleY(1)
     }
     }
+/* Removes the background behind the Member count*/
+.theme-dark #MemberCount {
+    background-color: transparent;
+}
+
+
+
+
   /* removes the stupid background on messages over hover */
   .mouse-mode .message-2qnXI6:hover {
-    background-color: transparent;
+    background-color: transparent !important;
   }
   
   /* makes the unread thing in the center instead of the right, also rounds it 
@@ -71,9 +79,6 @@
   }
   .channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
       display:block !important;
-  }
-  .theme-dark #MemberCount {
-      background-color: transparent;
   }
   /*  Talking Blue */ 
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
