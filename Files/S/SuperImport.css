@@ -4,7 +4,7 @@
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 /*@import "Fixes.css";*/
-@import "credits.css";
+/*@import "credits.css";*/
 /* Home Icon */
 #app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 {
     background: url("https://i.imgur.com/233d55Y.gif") center/cover no-repeat;
@@ -42,9 +42,14 @@
       transform: scaleY(1)
     }
     }
-/* Removes the background behind the Member count*/
-.theme-dark #MemberCount {
-    background-color: transparent;
+  /* Removes the background behind the Member count*/
+   .theme-dark #MemberCount {
+    background-color: transparent !important;
+}
+
+/* Hides Textbox when you don't have permission to talk in the channel */
+.channelTextAreaDisabled-8rmlrp > div {
+  display: none
 }
 
   /* removes the stupid background on messages over hover */
