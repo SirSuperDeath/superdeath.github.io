@@ -1,0 +1,23 @@
+  /*Server Hider */
+  nav.wrapper-1Rf91z {
+    left: -55px;
+    opacity: 0;
+    transition: .3s all ease-out;
+  }
+  
+  nav.wrapper-1Rf91z:hover {
+    left: 0px;
+    opacity: 1;
+    transition: .3s all ease-out;
+  }
+  
+  div.da-base{        
+    left: 10px ;
+    transition: .3s all ease-out;
+  }
+  
+  nav.wrapper-1Rf91z:hover ~ div.da-base{
+    left: 72px ;
+    transition: .3s all ease-out;
+  }
+  
