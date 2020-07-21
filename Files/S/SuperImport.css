@@ -121,6 +121,11 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO*/
     display: none; 
   }
   
+/* Fix Dm Outlined */
+.item-2hkk8m{width: 8px;}
+.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2){justify-content: left;}
+.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2)+.listItem-2P_4kh{margin-left: 0px;}
+
   /* Help Button Hider*/
   .toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
   
