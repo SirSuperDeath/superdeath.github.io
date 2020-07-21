@@ -122,7 +122,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO*/
   }
   
 /* Fix Dm Outlined */
-.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2) {justify-content: left;}
+.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2) {justify-content: left !important;}
 
   /* Help Button Hider*/
   .toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
