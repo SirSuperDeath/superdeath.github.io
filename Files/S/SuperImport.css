@@ -166,7 +166,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 }
 .container-3baos1:after {
 	content: "ClearVision" !important;
-	left: 40%;
+	left: 40% !important;
 }
 /*Change the Spotify Seekbar to match the colour of the --main-color var*/
 .powercord-spotify .spotify-seek-bar-progress {
