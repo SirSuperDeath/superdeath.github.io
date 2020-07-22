@@ -10,7 +10,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .homeIcon-tEMBK1 {
     display: none;
   }
-  /* Animated Ping Icon */ 
+/* Animated Ping Icon */ 
   .ping-2NgC8E {
     width: 18px;
     height: 18px
@@ -40,7 +40,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
       transform: scaleY(1)
     }
     }
-  /* Removes the background behind the Member count*/
+/* Removes the background behind the Member count*/
    .theme-dark #MemberCount {
     background-color: transparent !important;
 }
@@ -50,32 +50,32 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   display: none
 }
 
-  /* removes the stupid background on messages over hover */
+/* removes the stupid background on messages over hover */
   .mouse-mode .message-2qnXI6:hover {
     background-color: transparent !important;
   }
   
-  /* makes the unread thing in the center instead of the right, also rounds it 
+/* makes the unread thing in the center instead of the right, also rounds it 
   .unreadPill-2HyYtt {
     left: 45%;
     right: 50%;
     border-radius: 10px;
   }
-  /* gets rid of the pointy tip on the unread bar 
+/* gets rid of the pointy tip on the unread bar 
   .unreadPillCap-3_K2q2 {
     display: none;
   }
-  /* go back to the regular spacing between messages */
+/* go back to the regular spacing between messages */
   .container-3FojY8 {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* changes the color of the context menu and makes it a more appropriate size */
+/* changes the color of the context menu and makes it a more appropriate size */
   .wrapper-2aW0bm {
     transform: scale(0.6)
   }
   .container-3npvBV .wrapper-2aW0bm {background-color: rgba(0,0,0,0.4);}
-  /*Gift Button Hider Snippet*/
+/*Gift Button Hider Snippet*/
   .channelTextArea-rNsIhG .buttons-3JBrkn .button-38aScr[tabindex="0"]:first-child,
   .channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA + .buttonWrapper-1ZmCpA[tabindex="0"] {
       display:none;
@@ -83,7 +83,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
       display:block !important;
   }
-  /*  Talking Blue */ 
+/*  Talking Blue with blue glow */ 
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background: var(--main-color) var(--home-icon) var(--home-position)/var(--home-size);
   }.avatarSpeaking-1wJCNq {
@@ -103,7 +103,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     background: transparent !important;}
   .mention { color: var(--main-color);}
   
-  /* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) */
+/* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) */
   .container-3baos1 .button-14-BFJ:first-child,
   .container-3baos1 .button-14-BFJ:nth-child(2),
   .container-3baos1 .button-14-BFJ:nth-child(3)::before {
@@ -115,7 +115,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
       display: flex;
   }
   
-  /* Noise Suppression Button Hider*/
+/* Noise Suppression Button Hider*/
   [aria-label="Noise Suppression powered by Krisp"] {
     display: none; 
   }
@@ -123,11 +123,10 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 /* Fix Dm Outlined */
 .scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2) {justify-content: left !important;}
 
-  /* Help Button Hider*/
+/* Help Button Hider*/
   .toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
   
-  /*
-   * Enlarges reactions on hover */
+/*Enlarges reactions on hover */
    .da-reaction .da-reactionInner > img {
     position: relative;
     transition: all 0.08s linear;
@@ -137,7 +136,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     z-index: 2001;
   }
   
-  /* Remove the discord icon */
+/* Remove the discord icon */
   .wordmark-2iDDfm {
     display: none;
   }
@@ -148,7 +147,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .wordmark-2iDDfm > svg {
     display: none;
   }
-  /* Activity hider*/
+/* Activity hider*/
   .nowPlayingColumn-2sl4cE {
     position: relative;
     left: 339px ;
@@ -160,3 +159,16 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     opacity: 1;
     margin-left: 0;
     transition: .7s all ease-out;}
+/* Editing the Clearvision Logo to hide when not hovering over
+/* And inturn making the Spotify box look better*/
+.container-3baos1:before {
+	display: none;
+}
+.container-3baos1:after {
+	content: "ClearVision" !important;
+	left: 40%;
+}
+/*Change the Spotify Seekbar to match the colour of the --main-color var*/
+.powercord-spotify .spotify-seek-bar-progress {
+	background-color: var(--main-color) !important;
+}
