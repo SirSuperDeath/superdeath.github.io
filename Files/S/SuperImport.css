@@ -170,3 +170,11 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 .liveSmall-1dy2uA {
     font-size: 0px;
 }
+/* Spotify Model change to copy main Var(--main-color) of theme */ 
+.barFill-Dhkah7 {
+  background: var(--main-color);
+}
+.timeline-UWmgAx:hover
+.barFill-Dhkah7 {
+  background: var(--main-color);
+}
