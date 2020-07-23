@@ -172,9 +172,9 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 }
 /* Spotify Model change to copy main Var(--main-color) of theme */ 
 .barFill-Dhkah7 {
-  background: var(--main-color);
+  background: var(--main-color) !important;
 }
 .timeline-UWmgAx:hover
 .barFill-Dhkah7 {
-  background: var(--main-color);
+  background: var(--main-color) !important;
 }
