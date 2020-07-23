@@ -1,0 +1,10 @@
+/* Editing the Clearvision Logo to hide when not hovering over
+/* And inturn making the Spotify box look better*/
+/*.container-3baos1:before {
+	display: none;
+}
+.container-3baos1:after {
+	content: "ClearVision" !important;
+	left: 40% ;
+}
+

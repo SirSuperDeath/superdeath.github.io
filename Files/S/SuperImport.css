@@ -161,7 +161,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     transition: .7s all ease-out;}
 /*Change the Spotify Seekbar to match the colour of the --main-color var*/
 .powercord-spotify .spotify-seek-bar-progress {
-	background-color: var(--main-color) !important;
+	background-color: var(--main-color);
 }
 /* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
 .pictureInPictureWindow-1B5qSe{display:none;}
