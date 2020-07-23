@@ -161,7 +161,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     transition: .7s all ease-out;}
 /* Editing the Clearvision Logo to hide when not hovering over
 /* And inturn making the Spotify box look better*/
-.container-3baos1:before {
+/*.container-3baos1:before {
 	display: none;
 }
 .container-3baos1:after {
