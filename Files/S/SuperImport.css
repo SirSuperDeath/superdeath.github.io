@@ -172,3 +172,9 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 .powercord-spotify .spotify-seek-bar-progress {
 	background-color: var(--main-color) !important;
 }
+/* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
+.pictureInPictureWindow-1B5qSe{display:none;}
+/* Hide the live text to just be a Dot */
+.liveSmall-1dy2uA {
+    font-size: 0px;
+}
