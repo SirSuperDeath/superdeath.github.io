@@ -10,6 +10,11 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .homeIcon-tEMBK1 {
     display: none;
   }
+/* Channel Tabs */
+.channelTabs-tabContainer { 
+  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
+   color: rgba(255,255,255,0.5);
+}
 /* Animated Ping Icon */ 
   .ping-2NgC8E {
     width: 18px;
