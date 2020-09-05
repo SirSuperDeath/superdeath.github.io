@@ -150,7 +150,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 	background-color: var(--main-color);
 }
 /* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
-.pictureInPictureWindow-1B5qSe{display:none;}
+/* .pictureInPictureWindow-1B5qSe{display:none;}
 /* Hide the live text to just be a Dot (due to the text taking up too much space)*/
 .liveSmall-1dy2uA {
     font-size: 0px;
