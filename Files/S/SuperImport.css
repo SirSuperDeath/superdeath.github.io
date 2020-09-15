@@ -99,7 +99,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     background: transparent !important;}
   .mention { color: var(--main-color);}
   
-/* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) */
+/* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) 
   .container-3baos1 .button-14-BFJ:first-child,
   .container-3baos1 .button-14-BFJ:nth-child(2),
   .container-3baos1 .button-14-BFJ:nth-child(3)::before {
@@ -110,7 +110,28 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(3)::before {
       display: flex;
   }
-  
+  */
+ /* Spoiler show on hover */
+  .spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
+  opacity: 1;
+  border-radius: 3px;
+  background-color: #4a4d53;
+}
+/* Fly in Voice Chat buttons */
+
+.container-3baos1 .noWrap-3jynv6 {
+  width: 0px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .6s ease-in-out;
+}
+
+.container-3baos1:hover .noWrap-3jynv6 {
+  width: 100px;
+  opacity: 1;
+  pointer-events: all;
+}
+
 /* Noise Suppression Button Hider*/
   [aria-label="Noise Suppression powered by Krisp"] {
     display: none; 
