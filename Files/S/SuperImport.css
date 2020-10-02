@@ -51,10 +51,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     background-color: transparent !important;
 }
 
-/* Hides Textbox when you don't have permission to talk in the channel */
-.channelTextAreaDisabled-8rmlrp > div {
-  display: none
-}
+
 
 /* removes the stupid background on messages over hover */
   .mouse-mode .message-2qnXI6:hover {
@@ -71,14 +68,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     transform: scale(0.6)
   }
   .container-3npvBV .wrapper-2aW0bm {background-color: rgba(0,0,0,0.4);}
-/*Gift Button Hider Snippet*/
-  .channelTextArea-rNsIhG .buttons-3JBrkn .button-38aScr[tabindex="0"]:first-child,
-  .channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA + .buttonWrapper-1ZmCpA[tabindex="0"] {
-      display:none;
-  }
-  .channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
-      display:block !important;
-  }
+
 /*  Talking Blue with blue glow */ 
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background: var(--main-color) var(--home-icon) var(--home-position)/var(--home-size);
@@ -117,32 +107,41 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   border-radius: 3px;
   background-color: #4a4d53;
 }
-/* Fly in Voice Chat buttons */
-
-.container-3baos1 .noWrap-3jynv6 {
-  width: 0px;
-  opacity: 0;
-  pointer-events: none;
-  transition: all .6s ease-in-out;
+/* Fly in Voice Chat buttons fix */
+.panels-j1Uci_ .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ .container-3baos1 button:not([role="switch"]) {
+  transition: 0.2s ease-in-out;
+  width: 0px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
 }
-
-.container-3baos1:hover .noWrap-3jynv6 {
-  width: 100px;
-  opacity: 1;
-  pointer-events: all;
+.panels-j1Uci_ .container-3baos1:hover button.button-14-BFJ {
+  transition: 0.2s ease-in-out;
+  width: 32px !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+/* Hiding Things Area*/
+/* Hides Textbox when you don't have permission to talk in the channel */
+.channelTextAreaDisabled-8rmlrp > div {
+  display: none
 }
-
+/*Gift Button Hider Snippet*/
+.channelTextArea-rNsIhG .buttons-3JBrkn .button-38aScr[tabindex="0"]:first-child,
+.channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA + .buttonWrapper-1ZmCpA[tabindex="0"] {
+    display:none;
+}
+.channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
+    display:block !important;
+}
 /* Noise Suppression Button Hider*/
   [aria-label="Noise Suppression powered by Krisp"] {
     display: none; 
   }
-  
-/* Fix Dm Outlined */
-.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2) {justify-content: left !important;}
-
 /* Help Button Hider*/
   .toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
-  
+/* Hide the live text to just be a Dot (due to the text taking up too much space)*/
+.liveSmall-1dy2uA {
+  font-size: 0px;
+}
 /*Enlarges reactions on hover */
    .da-reaction .da-reactionInner > img {
     position: relative;
@@ -152,7 +151,9 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     transform: scale(3) translate(calc(-100%/3), 10%);
     z-index: 2001;
   }
-  
+/* Fix Dm Outlined */
+.scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2) {justify-content: left !important;}
+
 /* Remove the discord icon */
   .wordmark-2iDDfm {
     display: none;
@@ -172,10 +173,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 }
 /* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
 /* .pictureInPictureWindow-1B5qSe{display:none;}
-/* Hide the live text to just be a Dot (due to the text taking up too much space)*/
-.liveSmall-1dy2uA {
-    font-size: 0px;
-}
+
 /* Spotify Model change to copy main Var(--main-color) of theme */ 
 .barFill-Dhkah7 {
   background: var(--main-color) !important;
