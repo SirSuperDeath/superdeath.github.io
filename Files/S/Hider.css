@@ -1,0 +1,25 @@
+/* Hiding Things Area*/
+/* Hides Textbox when you don't have permission to talk in the channel */
+.channelTextAreaDisabled-8rmlrp > div {
+    display: none
+  }
+  /*Gift Button Hider Snippet*/
+  .channelTextArea-rNsIhG .buttons-3JBrkn .button-38aScr[tabindex="0"]:first-child,
+  .channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA + .buttonWrapper-1ZmCpA[tabindex="0"] {
+      display:none;
+  }
+  .channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
+      display:block !important;
+  }
+  /* Noise Suppression Button Hider*/
+    [aria-label="Noise Suppression powered by Krisp"] {
+      display: none; 
+    }
+  /* Help Button Hider*/
+    .toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
+  /* Hide the live text to just be a Dot (due to the text taking up too much space)*/
+  .liveSmall-1dy2uA {
+    font-size: 0px;
+  }
+
+  
