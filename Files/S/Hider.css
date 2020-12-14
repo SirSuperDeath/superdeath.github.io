@@ -15,8 +15,6 @@
     [aria-label="Noise Suppression powered by Krisp"] {
       display: none; 
     }
-/* Help Button Hider*/
-.toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
 /* Hide the live text to just be a Dot (due to the text taking up too much space)*/
   .liveSmall-1dy2uA {
     font-size: 0px;
