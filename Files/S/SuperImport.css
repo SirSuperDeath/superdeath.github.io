@@ -50,9 +50,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
    .theme-dark #MemberCount {
     background-color: transparent !important;
 }
-
-
-
 /* removes the stupid background on messages over hover */
   .mouse-mode .message-2qnXI6:hover {
     background-color: transparent !important;
@@ -136,8 +133,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   [aria-label="Noise Suppression powered by Krisp"] {
     display: none; 
   }
-/* Help Button Hider*/
-  .toolbar-1t6TWx .iconWrapper-2OrFZ1:last-child{display: none}
+
 /* Hide the live text to just be a Dot (due to the text taking up too much space)*/
 .liveSmall-1dy2uA {
   font-size: 0px;
