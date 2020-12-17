@@ -54,7 +54,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .mouse-mode .message-2qnXI6:hover {
     background-color: transparent !important;
   }
-
 /* go back to the regular spacing between messages */
   .container-3FojY8 {
     padding-top: 0px;
@@ -65,7 +64,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     transform: scale(0.6)
   }
   .container-3npvBV .wrapper-2aW0bm {background-color: rgba(0,0,0,0.4);}
-
 /*  Talking Blue with blue glow */ 
   .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background: var(--main-color) var(--home-icon) var(--home-position)/var(--home-size);
@@ -116,27 +114,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   width: 32px !important;
   overflow: visible !important;
   opacity: 1 !important;
-/* Hiding Things Area*/
-/* Hides Textbox when you don't have permission to talk in the channel */
-.channelTextAreaDisabled-8rmlrp > div {
-  display: none
-}
-/*Gift Button Hider Snippet*/
-.channelTextArea-rNsIhG .buttons-3JBrkn .button-38aScr[tabindex="0"]:first-child,
-.channelTextArea-rNsIhG .buttons-3JBrkn .buttonWrapper-1ZmCpA + .buttonWrapper-1ZmCpA[tabindex="0"] {
-    display:none;
-}
-.channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
-    display:block !important;
-}
-/* Noise Suppression Button Hider*/
-  [aria-label="Noise Suppression powered by Krisp"] {
-    display: none; 
-  }
-
-/* Hide the live text to just be a Dot (due to the text taking up too much space)*/
-.liveSmall-1dy2uA {
-  font-size: 0px;
 }
 /*Enlarges reactions on hover */
    .da-reaction .da-reactionInner > img {
@@ -161,12 +138,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .wordmark-2iDDfm > svg {
     display: none;
   }
-/*Change the Spotify Seekbar to match the colour of the --main-color var*/
-
-/* The Spotify pluging from powercord breaks the hide mute/deff buttons when not in VC if you join a after starting spotify*/
-.powercord-spotify .spotify-seek-bar-progress {
-	background-color: var(--main-color);
-}
 /* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
 /* .pictureInPictureWindow-1B5qSe{display:none;}
 
