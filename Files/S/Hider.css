@@ -19,3 +19,40 @@
   .liveSmall-1dy2uA {
     font-size: 0px;
   }
+/* Remove Seperator between Home and Guilds */
+.guildSeparator-3s64Iy {
+    display: none;
+  }
+/* Hide Invite to server button on user right click */
+.colorDefault-2K3EoJ[id="user-context-invite-to-server"] {
+      display: none;
+  }
+/* Hide Call user button on user right click */
+  .colorDefault-2K3EoJ[id="user-context-call"] {
+      display: none;
+  }
+/* Hide Discord logo */
+.wordmarkWindows-1v0lYD svg {display: none;}
+/* Show Discord, even when you're offline */
+.container-16j22k {
+  background: transparent;
+  pointer-events: none;
+}
+.container-16j22k * {
+  display: none;
+}
+.container-16j22k::before {
+  content: 'You\'ve gone offline';
+  display: block;
+  bottom: 24px;
+  right: 24px;
+  position: absolute;
+  padding: 8px 16px;
+  background-color: #f04747;
+  border-radius: 4px;
+  color: #fff;
+}
+/* Doing this just incase they change the class again */
+[aria-label="Help"] {
+  display: none; 
+}
