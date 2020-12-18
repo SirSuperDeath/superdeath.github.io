@@ -52,6 +52,10 @@
   border-radius: 4px;
   color: #fff;
 }
+/* Stream Popout Running Opacity Lower when not hovered over*/
+.pictureInPictureWindow-1B5qSe{opacity: 49%}
+.pictureInPictureWindow-1B5qSe:hover{opacity: 100%;}
+
 /* Doing this just incase they change the class again */
 [aria-label="Help"] {
   display: none; 
