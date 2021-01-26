@@ -146,7 +146,20 @@ left: -5px;
 .wordmark-2iDDfm > svg {
   display: none;
 }
-
+/* Some other fixes themeing of the member screening screen */
+/* outer box
+background-color: rgba(0,0,0,0.4);
+inner box
+background-color: rgba(255,255,255,0.05); */
+.enableContainer-2DIT9Q {
+  background-color: rgba(0,0,0,0.4);
+}
+.settingsFormItem-103g1I {
+  background-color: rgba(0,0,0,0.4);
+}
+.settingsFormFieldWrapper-3Y77Pr {
+  background-color: rgba(255,255,255,0.05);
+}
 /* if you dont want to see something just remove the */
 /*Member list hider*
 .membersWrap-2h-GB4:before {

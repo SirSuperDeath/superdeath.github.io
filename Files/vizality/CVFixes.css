@@ -5,3 +5,9 @@
 .vz-addon-card {
     background: rgba(0, 0, 0, 0.6);
 }
+.vz-dashboard-home .vz-wave-divider {
+    color: rgba(0, 0, 0, 0.6);
+}
+.vz-dashboard-home-features-card {
+    background-color: rgba(0,0,0,0.4);
+}
