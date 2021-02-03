@@ -1,0 +1,15 @@
+/* Vizality CSS/Theme Addons */
+/* Home Icon Vizality (Code by SirSuperDeath) */
+#app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 {
+	background: url("https://i.imgur.com/i333IYr.png") center/cover no-repeat;
+    background-size: 130%;
+    transition: 0.3s ease-in-out;
+  }
+#app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9:hover {
+	background: url("https://i.imgur.com/Ekke9TY.gif") center/cover no-repeat;
+    background-size: 135%;
+    transition: 0.3s ease-in-out;
+}
+.homeIcon-tEMBK1 {
+    display: none;
+  }
