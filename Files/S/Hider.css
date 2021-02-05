@@ -56,3 +56,17 @@
 [aria-label="Help"] {
   display: none; 
 }
+/* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) 
+  .container-3baos1 .button-14-BFJ:first-child,
+  .container-3baos1 .button-14-BFJ:nth-child(2),
+  .container-3baos1 .button-14-BFJ:nth-child(3)::before {
+      display:none;
+  }
+  .container-1giJp5 + .container-3baos1 .button-14-BFJ:first-child,
+  .container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(2),
+  .container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(3)::before {
+      display: flex;
+  }
+*/
+/* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
+/* .pictureInPictureWindow-1B5qSe{display:none;}

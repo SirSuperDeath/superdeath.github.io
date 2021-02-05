@@ -2,6 +2,7 @@
 /* For other Fixes such as Hide Memberlist , Servers etc they are now located in https://raw.githubusercontent.com/SuperDeath/superdeath.github.io/master/README.md
 PS if your looking at this your awesome and wash your hands and stay safe OWO :) */
 @import url(https://superdeath.github.io/Files/S/Hider.css);
+@import url(https://superdeath.github.io/Files/S/NitroHider.css);
 /*@import "credits.css";*/
 /* Home Icon */
 #app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 {
@@ -84,18 +85,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
     background: transparent !important;}
   .mention { color: var(--main-color);}
   
-/* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) 
-  .container-3baos1 .button-14-BFJ:first-child,
-  .container-3baos1 .button-14-BFJ:nth-child(2),
-  .container-3baos1 .button-14-BFJ:nth-child(3)::before {
-      display:none;
-  }
-  .container-1giJp5 + .container-3baos1 .button-14-BFJ:first-child,
-  .container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(2),
-  .container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(3)::before {
-      display: flex;
-  }
-*/
  /* Spoiler show on hover */
   .spoilerText-3p6IlD.hidden-HHr2R9:hover .inlineContent-3ZjPuv {
   opacity: 1;
@@ -137,9 +126,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .wordmark-2iDDfm > svg {
     display: none;
   }
-/* Hide Picture in Picture Streaming (if you like to see them let me know and ill move it to a diff CSS*/
-/* .pictureInPictureWindow-1B5qSe{display:none;}
-
 /* Spotify Model change to copy main Var(--main-color) of theme */ 
 .barFill-Dhkah7 {
   background: var(--main-color) !important;

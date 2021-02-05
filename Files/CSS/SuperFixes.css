@@ -103,18 +103,6 @@ left: -5px;
   background: transparent !important;}
 .mention { color: var(--main-color);}
 
-/* Hide Mute/Deafen buttons when not in a voice call (Original from Zerthox) */
-.container-3baos1 .button-14-BFJ:first-child,
-.container-3baos1 .button-14-BFJ:nth-child(2),
-.container-3baos1 .button-14-BFJ:nth-child(3)::before {
-    display:none;
-}
-.container-1giJp5 + .container-3baos1 .button-14-BFJ:first-child,
-.container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(2),
-.container-1giJp5 + .container-3baos1 .button-14-BFJ:nth-child(3)::before {
-    display: flex;
-}
-
 /* Noise Suppression Button Hider*/
 [aria-label="Noise Suppression powered by Krisp"] {
   display: none; 
