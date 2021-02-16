@@ -35,6 +35,11 @@
 .popoutContainer-1MXdqN > .flex-1xMQg5 > .flex-1xMQg5 { margin-left: 0px; }
 .primaryEmoji-3LinDq { margin: 0px 0px 12px 0; }
 .popoutContainer-1MXdqN { width: auto; }
-
+/** Removing the grayscale of nitro needed emotes useful 
+ * if you have the DiscordFreeEmojis plugin by AnO **/
+.emojiItemDisabled-1FvFuF {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 /* Server Boost */
 .ctaBar-2UsjF2 { margin: auto;}
