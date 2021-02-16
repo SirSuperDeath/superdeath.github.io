@@ -1,3 +1,4 @@
+/** this is my own changes i use id say dont use this **/
 /* Moving the Spotify Player to the left */
 .spotify-in-discord-player {
     transition: 0.5s;
@@ -32,3 +33,44 @@
   .spotify-in-discord-player:hover .avatarWrapper-2yR4wp {
       margin-left: 0px;
   }
+/* Removing Annoying things such as Separators in the 
+settings page and Mark Unread and speak msg buttons */
+#message-mark-unread,
+#message-tts {
+    display: none;    
+}
+.separator-gCa7yv {
+    display: none;
+}
+/*Hide Stickers*/
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] {
+  height:auto !important;
+  width:auto !important;
+}
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active {
+  height:160px !important;
+  width:160px !important;
+}
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:after {
+  content:'blocked sticker - Show Sticker';
+  color:var(--text-link);
+}
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active:after {
+  content:none;
+}
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:hover:after {
+  text-decoration:underline;
+}
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] .lottieCanvas-1W7L-f,
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style] .pngImage-33yLRP {
+  display:none;
+}
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .lottieCanvas-1W7L-f,
+.wrapper-2a6GCs .assetWrapper-3GNt0z[style]:active .pngImage-33yLRP {
+  display:block;
+}
+/* Hide Sticker Autocomplete */
+.emojiStickersDivider-3Q5Opa ~ .autocompleteRowVertical-q1K4ky,
+.emojiStickersDivider-3Q5Opa {
+display: none;
+}

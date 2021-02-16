@@ -21,3 +21,6 @@
 .vz-toast {
     background-color: rgba(0, 0, 0, 0.657); 
 }
+.vz-updater-update-inner .vz-updater-update {
+    background-color: #ffffff0d;
+}
