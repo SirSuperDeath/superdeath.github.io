@@ -1,10 +1,9 @@
-/*@import url(https://xcruxiex.github.io/BBDThemes/Aesthetics/UserBackgrounds/Main.css);*/
 /* For other Fixes such as Hide Memberlist , Servers etc they are now located in https://raw.githubusercontent.com/SuperDeath/superdeath.github.io/master/README.md
 PS if your looking at this your awesome and wash your hands and stay safe OWO :) */
 @import "Hider.css";
 @import "NitroHider.css";
 @import "Banners.css";
-@import "credits.css";
+@import "credits.scss";
 /* Home Icon */
 #app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 {
     background: url("https://i.imgur.com/233d55Y.gif") center/cover no-repeat;
