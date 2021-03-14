@@ -11,6 +11,18 @@
   .channelTextArea-rNsIhG .buttonContainer-28fw2U .button-38aScr {
       display:block !important;
   }
+/* Hide Active and show on hover*/
+.nowPlayingColumn-2sl4cE {
+  position: relative;
+  left: 350px ;
+  opacity: 1;
+  margin-left: -350px;
+  transition: .3s all ease-out;}
+.nowPlayingColumn-2sl4cE:hover {
+  left: 0 ;
+  opacity: 1;
+  margin-left: 0;
+  transition: .3s all ease-out;}
 /* Noise Suppression Button Hider*/
     [aria-label="Noise Suppression powered by Krisp"] {
       display: none; 
