@@ -45,3 +45,10 @@
   background: transparent !important;
   }
 /* Both should be sorted now */
+/* Moving the NEw Unreads popout lower to match the banners being there */
+.container-35XQWE{
+  position: fixed;
+  top: 136px;
+  left: 64px;
+  width: 220px;
+}
