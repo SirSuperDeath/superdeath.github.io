@@ -64,6 +64,15 @@
   border-radius: 4px;
   color: #fff;
 }
+/* Hiding the emote icon and gif icon behind the send file icon untill you hover over it*/
+.buttons-3JBrkn {opacity: 0; transition: opacity 0.1s;}
+.channelTextArea-rNsIhG:hover .buttons-3JBrkn {opacity: 1.0;}
+
+.attachWrapper-2TRKBi {order:1; margin-left:9px;}
+.attachButton-2WznTc {padding-right:0px}
+
+.uploadModal-2ifh8j .buttons-3JBrkn {opacity: 1.0;}
+
 /* Doing this just incase they change the class again */
 [aria-label="Help"] {
   display: none; 

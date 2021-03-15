@@ -3,7 +3,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
 @import "Hider.css";
 @import "NitroHider.css";
 @import "Banners.css";
-@import "credits.scss";
+@import "credits.css";
 /* Home Icon */
 #app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 {
     background: url("https://i.imgur.com/233d55Y.gif") center/cover no-repeat;
@@ -11,12 +11,7 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   .homeIcon-tEMBK1 {
     display: none;
   }
-/* Channel Tabs */
-.channelTabs-tabContainer { 
-  background: rgba(0, 0, 0, calc(var(--background-shading) * .6));
-   color: rgba(255,255,255,0.5);
-   margin-left: 72px;
-}
+
 /* Animated Ping Icon */ 
   .ping-2NgC8E {
     width: 18px;
@@ -104,15 +99,6 @@ PS if your looking at this your awesome and wash your hands and stay safe OWO :)
   overflow: visible !important;
   opacity: 1 !important;
 }
-/*Enlarges reactions on hover */
-   .da-reaction .da-reactionInner > img {
-    position: relative;
-    transition: all 0.08s linear;
-  }
-  .da-reaction .da-reactionInner:hover > img {
-    transform: scale(3) translate(calc(-100%/3), 10%);
-    z-index: 2001;
-  }
 /* Fix Dm Outlined */
 .scroller-2TZvBN>:not(.listItem-2P_4kh):nth-child(2) {justify-content: left !important;}
 /* Remove the discord icon */

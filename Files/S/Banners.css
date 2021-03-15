@@ -40,10 +40,10 @@
     background-position: center;
     background-size: cover;
   }
-  
-  .container-1taM1r {
+/* Important CSS */
+.container-1taM1r {
   background: transparent !important;
-  }
+}
 /* Both should be sorted now */
 /* Moving the NEw Unreads popout lower to match the banners being there */
 .container-35XQWE{
