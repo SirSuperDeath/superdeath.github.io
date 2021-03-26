@@ -1,7 +1,10 @@
+
+
+/* They seems to break things */
 /* New Banners*/
 /* WOJ */
 :root {
-  /*color of the shadow at the bottom of the banner, this color will depend on your theme, coming with this snippet is the color var for devilbro's discord recolor*/
+  /*color of the shadow at the bottom of the banner, this color will depend on your theme, coming with this snippet is the color var for devilbro's discord recolor*
       --server-banner-shadow: var(--background-secondary);
   }
   .container-3w7J-x[aria-label*="Wolves of Jonai"] .header-2V-4Sw {
@@ -17,9 +20,9 @@
       background-position: center;
       background-size: cover;
   }
-/*WOJ SS*/
+/*WOJ SS*
   :root {
-    /*color of the shadow at the bottom of the banner, this color will depend on your theme, coming with this snippet is the color var for devilbro's discord recolor*/
+    /*color of the shadow at the bottom of the banner, this color will depend on your theme, coming with this snippet is the color var for devilbro's discord recolor*
         --server-banner-shadow: var(--background-secondary);
     }
     .container-3w7J-x[aria-label*="WOJ High Command /Supers Safe Space"] .header-2V-4Sw {
@@ -60,8 +63,8 @@
 
 
 
-/* Old banners 
-/* WOJ Banner
+/* Old banners */
+/* WOJ Banner */
 .container-3w7J-x[aria-label*="Wolves of Jonai"] .header-2V-4Sw {
     box-shadow: none;
   }
@@ -84,7 +87,7 @@
   .container-1taM1r {
   background: transparent !important;
   }
-/* WOJ SS Banner 
+/* WOJ SS Banner */
 .container-3w7J-x[aria-label*="WOJ High Command /Supers Safe Space"] .header-2V-4Sw {
     box-shadow: none;
   }
@@ -103,12 +106,12 @@
     background-position: center;
     background-size: cover;
   }
-/* Important CSS *
+/* Important CSS */
 .container-1taM1r {
   background: transparent !important;
 }
 /* Both should be sorted now */
-/* Moving the NEw Unreads popout lower to match the banners being there *
+/* Moving the NEw Unreads popout lower to match the banners being there */
 .container-35XQWE{
   width: 230px;
   padding-left: 3px;
