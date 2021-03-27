@@ -14,7 +14,7 @@
     display: none;
   }
 /* Vizality Spotify Plugin Addon
-/* Moving the Spotify Player to the left */
+/* Moving the Spotify Player to the left *
 .spotify-in-discord-player {
   transition: 0.5s;
   border-top-right-radius: 8px;
