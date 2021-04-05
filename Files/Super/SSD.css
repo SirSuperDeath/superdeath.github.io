@@ -1,4 +1,7 @@
 /** this is my own changes i use id say dont use this **/
+
+/* Remove grayscale filter on emotes you cant use */
+.emojiItem-14v6tW.emojiItemDisabled-1FvFuF { filter: none;}
 /* Remove CV WaterMark */
 .container-3baos1:before , .container-3baos1:after {
   display: none;
@@ -81,3 +84,11 @@ settings page and Mark Unread and speak msg buttons */
 .emojiStickersDivider-3Q5Opa {
 display: none;
 }
+/* Removes Add a server and desco buttons */
+.circleButtonMask-1_597P.wrapper-25eVIn {
+  display: none;
+}
+/* remove icons from channel names */
+.children-3rEycc {
+    display: none;
+  }

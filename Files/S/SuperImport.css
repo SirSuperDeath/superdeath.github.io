@@ -145,3 +145,6 @@ div:not(:hover)>.members-1998pB>div{
 .barFill-Dhkah7 {
   background: var(--main-color) !important;
 }
+/*Better Discord Plugins/Themes tab themed */
+#app-mount .bd-addon-list .bd-addon-card, .bd-addon-list .bd-addon-header {background-color: rgba(0, 0, 0, 0.294);
+}
